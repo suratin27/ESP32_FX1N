@@ -1,2 +1,2 @@
-# ESP32_FX1N
- This library is created to be let ESP32 Control to be a FX1N PLC
+# ESP32_FX1N v 1.0.0
+- First released

@@ -1,0 +1,33 @@
+###########################################
+# Syntax Coloring Map For ESP32 FX1N PLC Library
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+PLC_FLASH       KEYWORD1
+PLC_RAM         KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+InitPLC         KEYWORD2
+getM            KEYWORD2
+setM            KEYWORD2
+clearM          KEYWORD2
+getU8D          KEYWORD2
+getU16D         KEYWORD2
+getU32D         KEYWORD2
+getT            KEYWORD2
+getC            KEYWORD2
+getFD           KEYWORD2
+setU8D          KEYWORD2
+setU16D         KEYWORD2
+setU32D         KEYWORD2
+setFD           KEYWORD2
+
+
+
+
+
+
