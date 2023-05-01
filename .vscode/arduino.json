@@ -1,0 +1,6 @@
+{
+    "configuration": "JTAGAdapter=default,PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,LoopCore=1,EventsCore=1,DebugLevel=none,EraseFlash=none",
+    "board": "esp32:esp32:esp32",
+    "sketch": "examples\\tutor03_blynk_v1\\tutor03_blynk_v1.ino",
+    "port": "COM3"
+}
