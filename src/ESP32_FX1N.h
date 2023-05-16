@@ -7,6 +7,7 @@
 
 //--------------------------- Main Function Parts
 void     InitPLC();
+void     InitPLC(uint16_t boardver);
 bool     getM(uint16_t addr);
 void     setM(uint16_t addr,uint8_t pos);
 void     clearM(uint16_t addr,uint8_t pos);
