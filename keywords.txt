@@ -25,9 +25,6 @@ setU8D          KEYWORD2
 setU16D         KEYWORD2
 setU32D         KEYWORD2
 setFD           KEYWORD2
-
-
-
-
-
-
+initRTC         KEYWORD2
+RTCSettime      KEYWORD2
+updateRTC       KEYWORD2

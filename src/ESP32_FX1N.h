@@ -4,6 +4,7 @@
 #include <SPIFFS.h>
 #include <StreamUtils.h>
 #include <ArduinoJson.h>
+#include <ESP32Time.h>
 
 //--------------------------- Main Function Parts
 void     InitPLC();
@@ -21,5 +22,9 @@ void     setU8D(uint16_t addr,uint8_t val);
 void     setU16D(uint16_t addr,uint16_t val);
 void     setU32D(uint16_t addr,uint32_t val);
 void     setFD(uint16_t addr,float val);
+
+void     initRTC();
+void     RTCSettime(int sc,int min,int hr,int da,int mt,int yr);
+void     updateRTC();
 
 #endif
