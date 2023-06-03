@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#line 1 "d:\\Product\\2023_Product\\Git\\DINO_PLC\\DINO_PLC\\examples\\tutor01_base\\tutor01_base.ino"
+#line 1 "d:\\Product\\2023_Product\\Git\\ESP32_FX1N\\ESP32_FX1N\\examples\\tutor01_base\\tutor01_base.ino"
 /*
   หลังจากโหลดลงไฟล์นี้ลงไปใน ESP32 Control 2.0RXO แล้วสามารถ Monitor โดยใช้ GXWork2 ได้เลย 
 */
@@ -8,11 +8,6 @@
 
 long lastTime;
 
-#line 9 "d:\\Product\\2023_Product\\Git\\DINO_PLC\\DINO_PLC\\examples\\tutor01_base\\tutor01_base.ino"
-void setup();
-#line 13 "d:\\Product\\2023_Product\\Git\\DINO_PLC\\DINO_PLC\\examples\\tutor01_base\\tutor01_base.ino"
-void loop();
-#line 9 "d:\\Product\\2023_Product\\Git\\DINO_PLC\\DINO_PLC\\examples\\tutor01_base\\tutor01_base.ino"
 void setup(){
   InitPLC();
 }
