@@ -8,6 +8,11 @@
 
 long lastTime;
 
+#line 9 "d:\\Product\\2023_Product\\Git\\ESP32_FX1N\\ESP32_FX1N\\examples\\tutor01_base\\tutor01_base.ino"
+void setup();
+#line 13 "d:\\Product\\2023_Product\\Git\\ESP32_FX1N\\ESP32_FX1N\\examples\\tutor01_base\\tutor01_base.ino"
+void loop();
+#line 9 "d:\\Product\\2023_Product\\Git\\ESP32_FX1N\\ESP32_FX1N\\examples\\tutor01_base\\tutor01_base.ino"
 void setup(){
   InitPLC();
 }
