@@ -1,5 +1,5 @@
-#ifndef DINO_PLC_H
-#define DINO_PLC_H
+#ifndef ESP32_FX1N_H
+#define ESP32_FX1N_H
 #include <Arduino.h>
 #include <SPIFFS.h>
 #include <StreamUtils.h>
@@ -11,8 +11,8 @@
 void     InitPLC();
 void     InitPLC(uint16_t boardver);
 bool     getM(uint16_t addr);
-void     setM(uint16_t addr,uint8_t pos);
-void     clearM(uint16_t addr,uint8_t pos);
+void     setM(uint16_t addr);
+void     resetM(uint16_t addr);
 uint8_t  getU8D(uint16_t addr);
 uint16_t getU16D(uint16_t addr);
 uint32_t getU32D(uint16_t addr);
