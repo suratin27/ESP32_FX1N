@@ -1,5 +1,5 @@
 ###########################################
-# Syntax Coloring Map For DINO PLC Library
+# Syntax Coloring Map For ESP32 FX1N PLC Library
 ###########################################
 
 ###########################################
